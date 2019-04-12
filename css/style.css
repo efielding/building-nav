@@ -1,54 +1,36 @@
-.box {
-    height: 100px;
-    width: 200px;
-
-    border: 1px solid black;
+.navbar{
+    background-color: gray;
+    height: 75px;
 }
 
-.red {
-    background-color: red
+.navbar:hover{
+    height:85px;
 }
 
-.green {
-    background-color: green
+.logo{
+    height: 70px;
+    width: 70px;
+    padding-left: 10px;
 }
 
-.blue {
-    background-color: blue
+.logo:hover{
+    height: 80px;
+    width: 80px;
+    padding-left: 10px;
 }
 
-.purple {
-    background-color: purple
-}
-
-.yellow {
-    background-color: yellow
-}
-
-.orange {
-    background-color: orange
-}
-
-.left{
-    float: left;
-}
-
-.right{
+.nav-list{
+    list-style-type: none;
     float: right;
 }
 
-.clear-left{
-    clear: left;
+.item{
+    color: #fff;
+    float: left;
+    padding: 14px 16px;
 }
 
-.clear-right{
-    clear: right;
-}
-
-.clear-both{
-    clear: both;
-}
-
-.top{
-    padding-top: 60px;
+li:hover{
+    font-size: 30px;
+    padding: 5px 16px;
 }
