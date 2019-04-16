@@ -1,3 +1,7 @@
+body{
+    width: 100vw;
+}
+
 .navbar{
     background-color: gray;
     height: 75px;
@@ -38,6 +42,15 @@ li:hover{
 
 .content{
     height:85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bitwise-location{
+    height:500px;
+    width: 450px;
+    margin-top: 20px;
 }
 
 map{
@@ -47,6 +60,9 @@ map{
 .footer{
    background-color: grey; 
    height: 47px;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
 }
 
 .social-media{
