@@ -28,9 +28,34 @@
     color: #fff;
     float: left;
     padding: 14px 16px;
+    
 }
 
 li:hover{
     font-size: 30px;
     padding: 5px 16px;
 }
+
+.content{
+    height:100vh;
+}
+
+
+.footer{
+   background-color: grey; 
+   height: 75px;
+}
+
+.social-media{
+    height: 50px;
+    bottom: 0;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
