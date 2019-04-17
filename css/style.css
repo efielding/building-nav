@@ -47,10 +47,22 @@ li:hover{
     justify-content: center;
 }
 
-.bitwise-location{
-    height:500px;
-    width: 450px;
+.column, .column2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
+}
+
+.column2{
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+
+.bitwise-location{
+    height:300px;
+    width: 350px;
+    margin-top: 80px;
 }
 
 
@@ -74,4 +86,5 @@ a{
 }
 
 
+}
 
